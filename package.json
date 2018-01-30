@@ -1,0 +1,33 @@
+{
+    "name": "laravel-mix-editor",
+    "version": "0.0.1",
+    "description": "Open in editor wrapper for Laravel Mix",
+    "main": "src/index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mathieutu/laravel-mix-editor.git"
+    },
+    "keywords": ["laravel-mix", "vuejs", "editor"],
+    "author": "Mathieu TUDISCO",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mathieutu/laravel-mix-editor/issues"
+    },
+    "homepage": "https://github.com/mathieutu/laravel-mix-editor",
+    "scripts": {
+        "format": "prettier --write \"**/*.js\""
+    },
+    "dependencies": {
+        "launch-editor-middleware": "^2.2.0"
+    },
+    "devDependencies": {
+        "laravel-mix": "^2.0.0",
+        "prettier": "^1.10.1"
+    },
+    "peerDependencies": {
+        "laravel-mix": "^2.0.0"
+    },
+    "engines": {
+        "node": ">=6.0.0"
+    }
+}
